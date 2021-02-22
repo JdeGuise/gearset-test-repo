@@ -2078,6 +2078,9 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test_Custom_Obj__c-Test Custom Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Tower__c-Tower Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

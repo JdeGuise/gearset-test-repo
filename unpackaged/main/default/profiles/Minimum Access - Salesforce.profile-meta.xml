@@ -139,6 +139,11 @@
         <field>Asset.TotalLifecycleAmount</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Test_Custom_Obj__c.Is_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Address-Address Layout</layout>
     </layoutAssignments>
@@ -195,6 +200,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>RefundLinePayment-Refund Line Payment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Custom_Obj__c-Test Custom Obj Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
