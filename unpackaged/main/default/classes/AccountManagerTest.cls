@@ -3,13 +3,19 @@ public class AccountManagerTest {
 
     @isTest
     public static void AccountManager_getAccount() {
-		RestRequest request = new RestRequest();
+    
+    
+    
+    
+    
+        System.debug('test');
+        RestRequest request = new RestRequest();
         insert new Account(
-        	Name='TestAcc'
+            Name='TestAcc'
         );
         Account retrievedAccount = [SELECT Id, Name FROM Account];
         insert new Contact(
-        	AccountId = retrievedAccount.Id,
+            AccountId = retrievedAccount.Id,
             FirstName='Test',
             LastName='Testing'
         );
@@ -21,7 +27,7 @@ public class AccountManagerTest {
         RestContext.request = request;
         
         Test.startTest();
-        	Account actualAccount = AccountManager.getAccount();
+            Account actualAccount = AccountManager.getAccount();
         Test.stopTest();
         
         System.assertEquals(
