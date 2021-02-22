@@ -1,0 +1,11 @@
+<aura:component>
+    <aura:registerEvent name="addItem" type="c:addItemEvent" />
+    <form class="slds-form--stacked">
+        <lightning:input aura:id="itemname" label="Item Name" name="itemname" value="{!v.newItem.Name}" required="true" />
+        <lightning:input aura:id="itemquantity" label="Quantity" name="itemquantity" value="{!v.newItem.Quantity__c}" required="true" type="number" min="1" step="1"/>
+        <lightning:input aura:id="itemprice" label="Price" name="itemprice" value="{!v.newItem.Price__c}" required="true" type="number" formatter="currency"/>
+        <lightning:input aura:id="Packed" label="Packed" name="Packed" checked="{!v.newItem.Packed__c}" required="true" type="checkbox"/>
+
+        <lightning:button label="Create Item" class="slds-m-top--medium" variant="brand" onclick="{!c.clickCreateItem}"/>
+    </form>
+</aura:component>
