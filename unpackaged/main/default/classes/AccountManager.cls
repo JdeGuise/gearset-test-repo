@@ -4,7 +4,6 @@ global with sharing class AccountManager {
     @HttpGet
     global static Account getAccount() {
         RestRequest request = RestContext.request;
-        System.debug('AccountId Input Parameter: ');
         System.debug(request.requestURI.substringBetween('Accounts/', '/contacts'));
         System.debug('Request URI: ');
         System.debug(request.requestURI);
