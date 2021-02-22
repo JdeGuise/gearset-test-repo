@@ -2119,6 +2119,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test_Custom_Obj__c.Is_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Tower__c.Tower_Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2346,6 +2351,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Custom_Obj__c-Test Custom Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Tower__c-Tower Layout</layout>
