@@ -8,7 +8,7 @@ public class AccountManagerTest {
     
     
     
-        System.debug('test');
+        System.debug('test2');
         RestRequest request = new RestRequest();
         insert new Account(
             Name='TestAcc'
