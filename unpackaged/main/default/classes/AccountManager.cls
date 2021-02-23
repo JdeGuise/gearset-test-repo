@@ -6,7 +6,7 @@ global with sharing class AccountManager {
         RestRequest request = RestContext.request;
         System.debug('AccountId Input Paramter: ');
         System.debug(request.requestURI.substringBetween('Accounts/', '/contacts'));
-        System.debug('Request URI: ');
+        System.debug('Request URI2: ');
         System.debug(request.requestURI);
         String accountId = request.requestURI.substringBetween('Accounts/', '/contacts');
         System.debug('AccountId: ' + accountId);
